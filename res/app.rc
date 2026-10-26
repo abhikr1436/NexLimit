@@ -1,0 +1,27 @@
+32512 ICON "nexlimit.ico"
+1 24 "app.manifest"
+1 VERSIONINFO
+FILEVERSION 1,2,0,0
+PRODUCTVERSION 1,2,0,0
+FILEOS 0x4
+FILETYPE 0x1
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "NexLimit"
+      VALUE "FileDescription", "NexLimit bandwidth limiter"
+      VALUE "FileVersion", "1.2.0.0"
+      VALUE "InternalName", "NexLimit"
+      VALUE "LegalCopyright", "NexLimit contributors"
+      VALUE "OriginalFilename", "NexLimit.exe"
+      VALUE "ProductName", "NexLimit"
+      VALUE "ProductVersion", "1.2.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END
